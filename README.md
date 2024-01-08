@@ -22,7 +22,7 @@ This program makes use of a SoulsFormats library fork known as SoulsFormatsExten
 But any fork of SoulsFormats supporting BND3 and BND4 should be supported if edits are made to include them instead.  
 To build it:  
 1. Get [SoulsFormatsExtended][0]  
-2. Place SoulsFormatsExtended into the directory this repo is in, or make the project target it somewhere else.  
+2. Place SoulsFormatsExtended into the directory this repo's directory is in, or make the project target it somewhere else.  
 3. Press build for this repo in Visual Studio 2022.  
 
 [0]: https://www.github.com/WarpZephyr/SoulsFormatsExtended
