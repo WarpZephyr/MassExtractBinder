@@ -5,7 +5,17 @@ If a folder is provided, a "mass-extract" folder will be present in it with extr
 If a file is provided, a "mass-extract" folder is added into the folder where it is present.  
 A list of folders and files can be provided if wanted, it will process them all.  
 
-If a file already exists, it will be overwritten.
+If a file already exists, it will be overwritten.  
+The preferred method of using this program is to drag and drop folders and/or files onto it.  
+If that cannot be done, provide file paths to the program in a terminal.
+
+# Supported Platforms
+As this program was made as a C# console app targetting .net8.0 in Visual Studio 2022, it should work on:  
+Windows  
+Linux  
+MacOS  
+
+I have only tested it on Windows.
 
 # Building
 This program makes use of a SoulsFormats library fork known as SoulsFormatsExtended,  
