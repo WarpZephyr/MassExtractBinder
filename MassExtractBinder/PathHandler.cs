@@ -15,6 +15,11 @@
             EnsureFolderExists(GetFolder(path));
         }
 
+        public static string CorrectDirectorySeparatorChar(string str)
+        {
+            return str.Replace('\\', Path.DirectorySeparatorChar).Replace('/', Path.DirectorySeparatorChar);
+        }
+
         public static string GetFolder(string path)
         {
             string? folder = Path.GetDirectoryName(path);

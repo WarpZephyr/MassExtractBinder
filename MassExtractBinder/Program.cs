@@ -63,7 +63,7 @@ namespace MassExtractBinder
         {
             foreach (var file in binder.Files)
             {
-                string outPath = Path.Combine(outFolder, file.Name ?? file.ID.ToString());
+                string outPath = Path.Combine(outFolder, PathHandler.CorrectDirectorySeparatorChar(file.Name ?? file.ID.ToString()));
                 PathHandler.EnsureOutPathExists(outPath);
                 File.WriteAllBytes(outPath, file.Bytes);
             }
